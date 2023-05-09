@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h3>Elite Properties</h3>
+        <nav>
+            <ul>
+                <li><a id="home" href="/">Home</a></li>
+                <li><a id="about" href="/about">About</a></li>
+                <li><a  id="contact" href="/contact">Contact</a></li>
+                <li><a id="find-agent" href="/find">Find Agent</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contact">
+    <form action="/contact" method="POST">
+        <h2>Contact Us</h2>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name..." name="name" required >
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email..." name="email" required>
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" placeholder="Enter your phone number..." name="phone" required>
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Write something..." name="message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+    <section class="contact-info">
+        <div class="address">
+          <h3>Address:</h3>
+          <p>Darbhanga .</p>
+          <p>BIHAR, INDIA 847103</p>
+        </div>
+        <div class="social-media">
+          <h3>Follow Us:</h3>
+          <ul>
+            <li><a href="">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="phone">
+          <h3>Phone:</h3>
+          <p>9110982171</p>
+        </div>
+        <div class="email">
+          <h3>Email:</h3>
+          <p>info@example.com</p>
+        </div>
+      </section>
+      
+    <footer>
+        <img src="images/logo.png" alt="Company Logo" class="logo">
+        <h3>&copy;2023 Property.com</h3>
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
