@@ -6,19 +6,19 @@ const session = require('express-session');
 // Create an Express app
 const app = express();
 // Configure MySQL connection
-const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'AVsam4ev@',
-  database: 'realestate'
-});
-// Connect to MySQL
-connection.connect((err) => {
-  if (err) {
-    console.error('Error connecting to MySQL: ', err);
-    return;
-  }
-  console.log('Connected to MySQL');
+// const connection = mysql.createConnection({
+//   host: 'localhost',
+//   user: 'root',
+//   password: 'AVsam4ev@',
+//   database: 'realestate'
+// });
+// // Connect to MySQL
+// connection.connect((err) => {
+//   if (err) {
+//     console.error('Error connecting to MySQL: ', err);
+//     return;
+//   }
+//   console.log('Connected to MySQL');
 });
 
 // Set the view engine to EJS
